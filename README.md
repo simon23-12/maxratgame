@@ -24,6 +24,8 @@ Knopf rechts = Aktion. Desktop: WASD, Shift rennen, Maus = Kamera, Leertaste = A
 ./build.sh --bake-samples 1024     # schoenerer Bake (dauert laenger)
 ./build.sh --render                # zusaetzlich Cycles-Standbilder nach renders/
 npm --prefix web run dev           # Preview auf http://localhost:5173 (auch im WLAN fuers iPhone)
+/Applications/Blender.app/Contents/MacOS/Blender -b blender/apartment.blend --python tools/render_preview.py
+python3 tools/make_preview.py      # Link-Vorschaubild (WhatsApp/Open Graph) + App-Icons neu
 git push                           # GitHub Action baut web/ und veroeffentlicht auf GitHub Pages
 ```
 
