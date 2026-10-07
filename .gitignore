@@ -1,0 +1,9 @@
+node_modules/
+web/dist/
+.DS_Store
+.claude/
+blender/_lightmap_linear.npy
+blender/*.blend1
+renders/_log.txt
+web/public/assets/_*
+web/public/assets/lightmap.png

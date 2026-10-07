@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Max' Ratte" />
+  <meta name="theme-color" content="#07090f" />
+  <title>Max' Ratte</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <canvas id="c"></canvas>
+
+  <div id="loader">
+    <div class="loader-title">Max' Ratte</div>
+    <div class="bar"><div id="bar-fill"></div></div>
+    <div id="loader-text">lade Wohnung …</div>
+  </div>
+
+  <!-- HUD -->
+  <div id="hud" hidden>
+    <div class="top">
+      <button id="pause" aria-label="Pause">❚❚</button>
+      <div id="obj"><div id="obj-title"></div><div id="obj-count"></div><div id="timer"></div></div>
+      <canvas id="radar" width="240" height="240"></canvas>
+    </div>
+    <div id="noise"><span class="lbl">Max</span><div class="meter"><div id="noise-fill"></div></div><span id="noise-face">😴</span></div>
+    <div id="status"></div>
+    <div id="toast"></div>
+  </div>
+  <button id="action" hidden><span id="action-ring"></span><span id="action-label">Aktion</span></button>
+  <div id="stick" hidden><div id="knob"></div></div>
+
+  <!-- Menue -->
+  <div id="menu" class="overlay" hidden>
+    <div class="panel">
+      <div class="logo">MAX' <span>RATTE</span></div>
+      <div class="sub">Eine Ratte. Eine Altbauwohnung. Ein Mann in pinker Strumpfhose.</div>
+      <div id="level-list"></div>
+      <button id="music-menu" class="music-btn">♪ Musik: an</button>
+      <div class="foot">Am besten hochkant auf dem Handy · mit Ton</div>
+    </div>
+  </div>
+
+  <!-- Codec-Briefing -->
+  <div id="brief" class="overlay" hidden>
+    <div class="panel codec">
+      <div class="codec-head"><span>CODEC</span><span class="freq">140.85</span></div>
+      <div id="brief-title"></div>
+      <div id="brief-text"></div>
+      <div id="brief-controls"></div>
+      <button id="brief-go" class="primary">Los geht's</button>
+    </div>
+  </div>
+
+  <div id="pause-menu" class="overlay" hidden>
+    <div class="panel">
+      <div class="logo small">Pause</div>
+      <button id="pause-resume" class="primary">Weiter</button>
+      <button id="pause-restart">Level neu starten</button>
+      <button id="pause-menu-btn">Levelauswahl</button>
+      <button id="music-pause" class="music-btn">♪ Musik: an</button>
+    </div>
+  </div>
+
+  <div id="result" class="overlay" hidden>
+    <div class="panel">
+      <div id="result-title" class="logo small"></div>
+      <div id="result-text"></div>
+      <button id="result-next" class="primary">Nächstes Level</button>
+      <button id="result-retry">Nochmal</button>
+      <button id="result-menu">Levelauswahl</button>
+    </div>
+  </div>
+
+  <div id="rotate">Bitte das Handy hochkant halten 📱</div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1437 @@
+{
+ "rooms": {
+  "Kueche": [
+   1.12,
+   4.45,
+   5.72,
+   8.05
+  ],
+  "Wohnzimmer": [
+   1.12,
+   0.0,
+   5.72,
+   4.45
+  ],
+  "Schlafzimmer": [
+   5.72,
+   0.0,
+   11.48,
+   4.45
+  ],
+  "Flur": [
+   5.72,
+   4.45,
+   11.48,
+   5.45
+  ],
+  "Bad": [
+   5.72,
+   5.45,
+   8.4,
+   8.05
+  ],
+  "Toilette": [
+   8.4,
+   5.45,
+   11.48,
+   6.7
+  ],
+  "Abstellkammer": [
+   8.4,
+   6.7,
+   11.48,
+   8.05
+  ]
+ },
+ "walls": [
+  [
+   0.8200000000000001,
+   -0.3,
+   1.12,
+   8.350000000000001
+  ],
+  [
+   0.8200000000000001,
+   -0.3,
+   11.780000000000001,
+   0.0
+  ],
+  [
+   0.8200000000000001,
+   8.05,
+   11.780000000000001,
+   8.350000000000001
+  ],
+  [
+   11.48,
+   -0.3,
+   11.780000000000001,
+   4.55
+  ],
+  [
+   11.48,
+   5.35,
+   11.780000000000001,
+   8.350000000000001
+  ],
+  [
+   5.66,
+   0,
+   5.779999999999999,
+   4.55
+  ],
+  [
+   5.66,
+   5.35,
+   5.779999999999999,
+   7.1
+  ],
+  [
+   5.66,
+   7.85,
+   5.779999999999999,
+   8.05
+  ],
+  [
+   1.12,
+   4.390000000000001,
+   2.77,
+   4.51
+  ],
+  [
+   4.07,
+   4.390000000000001,
+   9.45,
+   4.51
+  ],
+  [
+   10.25,
+   4.390000000000001,
+   11.48,
+   4.51
+  ],
+  [
+   5.72,
+   5.390000000000001,
+   9.75,
+   5.51
+  ],
+  [
+   10.5,
+   5.390000000000001,
+   11.48,
+   5.51
+  ],
+  [
+   8.34,
+   5.45,
+   8.46,
+   7.1
+  ],
+  [
+   8.34,
+   7.8,
+   8.46,
+   8.05
+  ],
+  [
+   8.4,
+   6.640000000000001,
+   11.48,
+   6.76
+  ]
+ ],
+ "solids": [
+  {
+   "r": [
+    1.37,
+    3.55,
+    1.97,
+    4.15
+   ],
+   "kind": "hot"
+  },
+  {
+   "r": [
+    1.12,
+    1.35,
+    2.07,
+    3.5
+   ],
+   "kind": "under"
+  },
+  {
+   "r": [
+    5.26,
+    1.45,
+    5.66,
+    3.15
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    1.15,
+    7.33,
+    1.81,
+    8.0
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    5.06,
+    5.45,
+    5.66,
+    6.95
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    1.19,
+    4.59,
+    1.51,
+    5.01
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    1.17,
+    5.15,
+    1.47,
+    5.45
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    3.95,
+    7.18,
+    5.15,
+    7.98
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    9.4,
+    0.03,
+    11.0,
+    2.15
+   ],
+   "kind": "under"
+  },
+  {
+   "r": [
+    11.0,
+    0.09,
+    11.46,
+    0.51
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    5.78,
+    0.8,
+    6.38,
+    2.6
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    5.78,
+    5.51,
+    6.53,
+    7.0
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    7.9,
+    6.32,
+    8.34,
+    6.88
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    10.95,
+    5.85,
+    11.45,
+    6.3
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    8.6,
+    7.58,
+    10.6,
+    8.03
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    8.95,
+    6.76,
+    10.3,
+    7.13
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    10.6,
+    6.76,
+    11.3,
+    7.02
+   ],
+   "kind": "solid"
+  },
+  {
+   "r": [
+    4.5,
+    0.6499999999999999,
+    4.9,
+    1.05
+   ],
+   "kind": "hantel"
+  },
+  {
+   "r": [
+    4.75,
+    1.05,
+    5.15,
+    1.45
+   ],
+   "kind": "hantel"
+  },
+  {
+   "r": [
+    6.55,
+    0.3,
+    6.95,
+    0.7
+   ],
+   "kind": "hantel"
+  },
+  {
+   "r": [
+    6.85,
+    0.14999999999999997,
+    7.25,
+    0.55
+   ],
+   "kind": "hantel"
+  }
+ ],
+ "doors": [
+  {
+   "axis": "y",
+   "at": 11.63,
+   "from": 4.55,
+   "to": 5.35
+  },
+  {
+   "axis": "y",
+   "at": 5.72,
+   "from": 4.55,
+   "to": 5.35
+  },
+  {
+   "axis": "y",
+   "at": 5.72,
+   "from": 7.1,
+   "to": 7.85
+  },
+  {
+   "axis": "x",
+   "at": 4.45,
+   "from": 2.77,
+   "to": 4.07
+  },
+  {
+   "axis": "x",
+   "at": 4.45,
+   "from": 9.45,
+   "to": 10.25
+  },
+  {
+   "axis": "x",
+   "at": 5.45,
+   "from": 9.75,
+   "to": 10.5
+  },
+  {
+   "axis": "y",
+   "at": 8.4,
+   "from": 7.1,
+   "to": 7.8
+  }
+ ],
+ "items": [
+  {
+   "name": "Pizza_01",
+   "role": "food",
+   "pos": [
+    2.65,
+    2.25,
+    0.417
+   ],
+   "food": "vegane_pizza",
+   "value": 3
+  },
+  {
+   "name": "Mate_01",
+   "role": "noise",
+   "pos": [
+    2.75,
+    2.75,
+    0.417
+   ],
+   "sound": "flasche",
+   "loudness": 1.0,
+   "lying": false
+  },
+  {
+   "name": "Mate_02",
+   "role": "noise",
+   "pos": [
+    2.55,
+    2.8,
+    0.417
+   ],
+   "sound": "flasche",
+   "loudness": 1.0,
+   "lying": false
+  },
+  {
+   "name": "Dose_01",
+   "role": "noise",
+   "pos": [
+    2.5,
+    2.0,
+    0.417
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": false,
+   "crushed": false
+  },
+  {
+   "name": "Mate_03",
+   "role": "noise",
+   "pos": [
+    3.2,
+    1.5,
+    0.0
+   ],
+   "sound": "flasche",
+   "loudness": 1.0,
+   "lying": true
+  },
+  {
+   "name": "Dose_02",
+   "role": "noise",
+   "pos": [
+    3.55,
+    3.0,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": true,
+   "crushed": false
+  },
+  {
+   "name": "Dose_03",
+   "role": "noise",
+   "pos": [
+    3.4,
+    1.15,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": false,
+   "crushed": false
+  },
+  {
+   "name": "Dose_04",
+   "role": "noise",
+   "pos": [
+    2.3,
+    3.6,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": true,
+   "crushed": false
+  },
+  {
+   "name": "Dose_05",
+   "role": "noise",
+   "pos": [
+    4.3,
+    3.7,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": false,
+   "crushed": true
+  },
+  {
+   "name": "Magerquark_01",
+   "role": "food",
+   "pos": [
+    2.25,
+    1.05,
+    0.0
+   ],
+   "food": "magerquark",
+   "value": 1
+  },
+  {
+   "name": "Magerquark_02",
+   "role": "food",
+   "pos": [
+    3.9,
+    2.6,
+    0.0
+   ],
+   "food": "magerquark",
+   "value": 1
+  },
+  {
+   "name": "Pizzarand_01",
+   "role": "food",
+   "pos": [
+    3.15,
+    3.5,
+    0.0
+   ],
+   "food": "pizzarand",
+   "value": 1
+  },
+  {
+   "name": "Pizzarand_02",
+   "role": "food",
+   "pos": [
+    2.2,
+    1.85,
+    0.0
+   ],
+   "food": "pizzarand",
+   "value": 1
+  },
+  {
+   "name": "Pizza_02",
+   "role": "food",
+   "pos": [
+    3.7,
+    0.8,
+    0.0
+   ],
+   "food": "vegane_pizza",
+   "value": 3
+  },
+  {
+   "name": "Hantel_01",
+   "role": "obstacle",
+   "pos": [
+    4.7,
+    0.85,
+    0.0
+   ],
+   "kind": "hantel",
+   "kg": 12
+  },
+  {
+   "name": "Hantel_02",
+   "role": "obstacle",
+   "pos": [
+    4.95,
+    1.25,
+    0.0
+   ],
+   "kind": "hantel",
+   "kg": 12
+  },
+  {
+   "name": "Pizza_03",
+   "role": "food",
+   "pos": [
+    2.2,
+    6.05,
+    0.76
+   ],
+   "food": "vegane_pizza",
+   "value": 3
+  },
+  {
+   "name": "Magerquark_03",
+   "role": "food",
+   "pos": [
+    2.7,
+    6.3,
+    0.76
+   ],
+   "food": "magerquark",
+   "value": 2
+  },
+  {
+   "name": "Magerquark_04",
+   "role": "food",
+   "pos": [
+    2.55,
+    5.95,
+    0.76
+   ],
+   "food": "magerquark",
+   "value": 1
+  },
+  {
+   "name": "Magerquark_05",
+   "role": "food",
+   "pos": [
+    5.3,
+    6.2,
+    0.9
+   ],
+   "food": "magerquark",
+   "value": 2
+  },
+  {
+   "name": "Magerquark_06",
+   "role": "food",
+   "pos": [
+    5.4,
+    6.87,
+    0.9
+   ],
+   "food": "magerquark",
+   "value": 2
+  },
+  {
+   "name": "Dose_06",
+   "role": "noise",
+   "pos": [
+    5.45,
+    6.07,
+    0.9
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": false,
+   "crushed": false
+  },
+  {
+   "name": "Magerquark_07",
+   "role": "food",
+   "pos": [
+    3.45,
+    7.55,
+    0.0
+   ],
+   "food": "magerquark",
+   "value": 1
+  },
+  {
+   "name": "Mate_04",
+   "role": "noise",
+   "pos": [
+    3.75,
+    7.8,
+    0.0
+   ],
+   "sound": "flasche",
+   "loudness": 1.0,
+   "lying": false
+  },
+  {
+   "name": "Mate_05",
+   "role": "noise",
+   "pos": [
+    2.1,
+    7.05,
+    0.0
+   ],
+   "sound": "flasche",
+   "loudness": 1.0,
+   "lying": true
+  },
+  {
+   "name": "Mate_06",
+   "role": "noise",
+   "pos": [
+    3.3,
+    5.3,
+    0.0
+   ],
+   "sound": "flasche",
+   "loudness": 1.0,
+   "lying": true
+  },
+  {
+   "name": "Dose_07",
+   "role": "noise",
+   "pos": [
+    3.6,
+    6.5,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": true,
+   "crushed": false
+  },
+  {
+   "name": "Dose_08",
+   "role": "noise",
+   "pos": [
+    2.4,
+    7.45,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": false,
+   "crushed": false
+  },
+  {
+   "name": "Dose_09",
+   "role": "noise",
+   "pos": [
+    4.4,
+    5.6,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": false,
+   "crushed": true
+  },
+  {
+   "name": "Pizzarand_03",
+   "role": "food",
+   "pos": [
+    3.2,
+    5.9,
+    0.0
+   ],
+   "food": "pizzarand",
+   "value": 1
+  },
+  {
+   "name": "Magerquark_08",
+   "role": "food",
+   "pos": [
+    2.0,
+    7.15,
+    0.0
+   ],
+   "food": "magerquark",
+   "value": 1
+  },
+  {
+   "name": "Dose_10",
+   "role": "noise",
+   "pos": [
+    11.33,
+    0.2,
+    0.52
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": false,
+   "crushed": false
+  },
+  {
+   "name": "Dose_11",
+   "role": "noise",
+   "pos": [
+    10.7,
+    3.4,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": true,
+   "crushed": false
+  },
+  {
+   "name": "Dose_12",
+   "role": "noise",
+   "pos": [
+    9.1,
+    3.2,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": true,
+   "crushed": false
+  },
+  {
+   "name": "Dose_13",
+   "role": "noise",
+   "pos": [
+    8.0,
+    2.6,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": false,
+   "crushed": false
+  },
+  {
+   "name": "Dose_14",
+   "role": "noise",
+   "pos": [
+    8.9,
+    0.45,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": false,
+   "crushed": true
+  },
+  {
+   "name": "Mate_07",
+   "role": "noise",
+   "pos": [
+    9.15,
+    1.2,
+    0.0
+   ],
+   "sound": "flasche",
+   "loudness": 1.0,
+   "lying": false
+  },
+  {
+   "name": "Mate_08",
+   "role": "noise",
+   "pos": [
+    7.6,
+    1.6,
+    0.0
+   ],
+   "sound": "flasche",
+   "loudness": 1.0,
+   "lying": true
+  },
+  {
+   "name": "Magerquark_09",
+   "role": "food",
+   "pos": [
+    10.6,
+    2.55,
+    0.0
+   ],
+   "food": "magerquark",
+   "value": 1
+  },
+  {
+   "name": "Magerquark_10",
+   "role": "food",
+   "pos": [
+    7.0,
+    2.9,
+    0.0
+   ],
+   "food": "magerquark",
+   "value": 2
+  },
+  {
+   "name": "Pizzarand_04",
+   "role": "food",
+   "pos": [
+    8.6,
+    3.5,
+    0.0
+   ],
+   "food": "pizzarand",
+   "value": 1
+  },
+  {
+   "name": "Pizza_04",
+   "role": "food",
+   "pos": [
+    7.9,
+    3.75,
+    0.0
+   ],
+   "food": "vegane_pizza",
+   "value": 3
+  },
+  {
+   "name": "Hantel_03",
+   "role": "obstacle",
+   "pos": [
+    6.75,
+    0.5,
+    0.0
+   ],
+   "kind": "hantel",
+   "kg": 8
+  },
+  {
+   "name": "Hantel_04",
+   "role": "obstacle",
+   "pos": [
+    7.05,
+    0.35,
+    0.0
+   ],
+   "kind": "hantel",
+   "kg": 8
+  },
+  {
+   "name": "Peitsche",
+   "role": "obstacle",
+   "pos": [
+    8.45,
+    1.9,
+    0.0
+   ],
+   "kind": "peitsche"
+  },
+  {
+   "name": "Dose_15",
+   "role": "noise",
+   "pos": [
+    7.3,
+    4.85,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": true,
+   "crushed": false
+  },
+  {
+   "name": "Mate_09",
+   "role": "noise",
+   "pos": [
+    10.9,
+    5.2,
+    0.0
+   ],
+   "sound": "flasche",
+   "loudness": 1.0,
+   "lying": false
+  },
+  {
+   "name": "Dose_16",
+   "role": "noise",
+   "pos": [
+    6.45,
+    7.3,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": true,
+   "crushed": false
+  },
+  {
+   "name": "Magerquark_11",
+   "role": "food",
+   "pos": [
+    7.6,
+    7.65,
+    0.0
+   ],
+   "food": "magerquark",
+   "value": 1
+  },
+  {
+   "name": "Dose_17",
+   "role": "noise",
+   "pos": [
+    10.6,
+    6.45,
+    0.0
+   ],
+   "sound": "dose",
+   "loudness": 0.8,
+   "lying": false,
+   "crushed": true
+  },
+  {
+   "name": "Badewasser",
+   "role": "water",
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "badewanne"
+  },
+  {
+   "name": "Pfuetze",
+   "role": "water",
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "pfuetze"
+  },
+  {
+   "name": "Figur_01",
+   "role": "mini",
+   "pos": [
+    1.6,
+    2.2,
+    0.0
+   ],
+   "ork": false
+  },
+  {
+   "name": "Figur_02",
+   "role": "mini",
+   "pos": [
+    10.2,
+    2.45,
+    0.0
+   ],
+   "ork": true
+  },
+  {
+   "name": "Figur_03",
+   "role": "mini",
+   "pos": [
+    7.2,
+    6.3,
+    0.004
+   ],
+   "ork": false
+  },
+  {
+   "name": "Figur_04",
+   "role": "mini",
+   "pos": [
+    2.3,
+    6.1,
+    0.0
+   ],
+   "ork": true
+  },
+  {
+   "name": "Figur_05",
+   "role": "mini",
+   "pos": [
+    6.95,
+    4.75,
+    0.0
+   ],
+   "ork": false
+  },
+  {
+   "name": "Figur_06",
+   "role": "mini",
+   "pos": [
+    10.55,
+    6.25,
+    0.004
+   ],
+   "ork": true
+  }
+ ],
+ "lights": [
+  {
+   "name": "Ofen_Glut",
+   "pos": [
+    1.99,
+    3.85,
+    0.42
+   ],
+   "color": [
+    1.0,
+    0.42,
+    0.12
+   ],
+   "energy": 60
+  },
+  {
+   "name": "Ofen_Innen",
+   "pos": [
+    1.67,
+    3.85,
+    0.7
+   ],
+   "color": [
+    1.0,
+    0.3,
+    0.08
+   ],
+   "energy": 15
+  },
+  {
+   "name": "Lampe_Wohnzimmer",
+   "pos": [
+    3.42,
+    2.2,
+    2.44
+   ],
+   "color": [
+    1.0,
+    0.76,
+    0.5
+   ],
+   "energy": 90
+  },
+  {
+   "name": "Mond",
+   "pos": [
+    3.42,
+    0.45,
+    1.675
+   ],
+   "color": [
+    0.55,
+    0.65,
+    1.0
+   ],
+   "energy": 14
+  },
+  {
+   "name": "Lampe_Kueche",
+   "pos": [
+    2.3,
+    6.15,
+    2.22
+   ],
+   "color": [
+    1.0,
+    0.8,
+    0.55
+   ],
+   "energy": 70
+  },
+  {
+   "name": "Mond",
+   "pos": [
+    3.42,
+    7.6,
+    1.7
+   ],
+   "color": [
+    0.55,
+    0.65,
+    1.0
+   ],
+   "energy": 14
+  },
+  {
+   "name": "Nachtlicht",
+   "pos": [
+    11.23,
+    0.38,
+    0.82
+   ],
+   "color": [
+    1.0,
+    0.5,
+    0.2
+   ],
+   "energy": 5
+  },
+  {
+   "name": "Mond",
+   "pos": [
+    7.4,
+    0.45,
+    1.675
+   ],
+   "color": [
+    0.55,
+    0.65,
+    1.0
+   ],
+   "energy": 14
+  },
+  {
+   "name": "Mond",
+   "pos": [
+    10.2,
+    0.45,
+    1.675
+   ],
+   "color": [
+    0.55,
+    0.65,
+    1.0
+   ],
+   "energy": 14
+  },
+  {
+   "name": "Lampe_Flur",
+   "pos": [
+    8.6,
+    4.95,
+    2.68
+   ],
+   "color": [
+    1.0,
+    0.78,
+    0.5
+   ],
+   "energy": 18
+  },
+  {
+   "name": "Lampe_Bad",
+   "pos": [
+    7.0,
+    6.8,
+    2.74
+   ],
+   "color": [
+    1.0,
+    0.85,
+    0.7
+   ],
+   "energy": 15
+  },
+  {
+   "name": "Mond",
+   "pos": [
+    7.25,
+    7.6,
+    1.85
+   ],
+   "color": [
+    0.55,
+    0.65,
+    1.0
+   ],
+   "energy": 14
+  },
+  {
+   "name": "WC_Nachtlicht",
+   "pos": [
+    8.55,
+    6.1,
+    0.35
+   ],
+   "color": [
+    1.0,
+    0.75,
+    0.45
+   ],
+   "energy": 2
+  },
+  {
+   "name": "Lichterkette",
+   "pos": [
+    9.8,
+    7.8,
+    1.9
+   ],
+   "color": [
+    1.0,
+    0.7,
+    0.35
+   ],
+   "energy": 12
+  },
+  {
+   "name": "Nest_Glimmen",
+   "pos": [
+    10.85,
+    7.42,
+    0.25
+   ],
+   "color": [
+    1.0,
+    0.7,
+    0.4
+   ],
+   "energy": 2.5
+  }
+ ],
+ "oven": [
+  1.94,
+  3.85,
+  0.42
+ ],
+ "hideout": {
+  "pos": [
+   11.15,
+   7.42
+  ],
+  "radius": 0.35
+ },
+ "exit": {
+  "pos": [
+   11.43,
+   3.7
+  ],
+  "r": 0.13
+ },
+ "water": [
+  [
+   [
+    7.44,
+    6.355
+   ],
+   [
+    7.41,
+    6.521
+   ],
+   [
+    7.338,
+    6.658
+   ],
+   [
+    7.228,
+    6.738
+   ],
+   [
+    7.159,
+    6.829
+   ],
+   [
+    7.094,
+    6.925
+   ],
+   [
+    7.004,
+    6.961
+   ],
+   [
+    6.918,
+    6.995
+   ],
+   [
+    6.83,
+    6.992
+   ],
+   [
+    6.739,
+    7.014
+   ],
+   [
+    6.642,
+    7.009
+   ],
+   [
+    6.534,
+    7.045
+   ],
+   [
+    6.534,
+    6.971
+   ],
+   [
+    6.534,
+    6.844
+   ],
+   [
+    6.534,
+    6.643
+   ],
+   [
+    6.534,
+    6.468
+   ],
+   [
+    6.534,
+    6.355
+   ],
+   [
+    6.534,
+    6.233
+   ],
+   [
+    6.534,
+    6.091
+   ],
+   [
+    6.534,
+    5.935
+   ],
+   [
+    6.534,
+    5.828
+   ],
+   [
+    6.55,
+    5.751
+   ],
+   [
+    6.627,
+    5.65
+   ],
+   [
+    6.728,
+    5.613
+   ],
+   [
+    6.83,
+    5.565
+   ],
+   [
+    6.934,
+    5.599
+   ],
+   [
+    7.008,
+    5.737
+   ],
+   [
+    7.059,
+    5.861
+   ],
+   [
+    7.093,
+    5.976
+   ],
+   [
+    7.18,
+    6.018
+   ],
+   [
+    7.281,
+    6.086
+   ],
+   [
+    7.4,
+    6.192
+   ]
+  ]
+ ],
+ "max": {
+  "head": [
+   10.52,
+   0.46,
+   0.72
+  ],
+  "body": [
+   10.52,
+   1.43,
+   0.57
+  ]
+ },
+ "meta": {
+  "x0": 1.12,
+  "width": 11.48,
+  "depth": 8.05,
+  "height": 3.0,
+  "lm_max": 2.5781,
+  "lm_size": 2048,
+  "coords": "blender: x=Ost, y=Nord, z=oben (three: x, z, -y)"
+ }
+}
